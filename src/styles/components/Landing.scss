@@ -1,0 +1,47 @@
+@import "../core/Variables.scss";
+
+.main__landing {
+  height: 100vh;
+  display: flex;
+}
+.landing {
+  &__presentation {
+    height: 100%;
+    // width: 50%;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: $secondColor;
+    padding: 0 30px;
+    &--title {
+      color: $mainColor;
+      font-size: 35px;
+      margin-bottom: 15px;
+    }
+    &--subtitle {
+      font-size: 30px;
+    }
+    &--subsubtitle {
+      font-size: 20px;
+      margin-bottom: 25px;
+      width: fit-content;
+      padding: 2px 9px;
+      background-color: $mainColor;
+      background-size: contain;
+    }
+  }
+  &__picture {
+    height: 100%;
+    // width: 50%;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    background-color: $mainColor;
+    &--pic {
+      border: black 4px solid;
+      border-radius: 25px;
+      margin: 25px 0;
+    }
+  }
+}

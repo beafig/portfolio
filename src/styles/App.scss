@@ -1,0 +1,8 @@
+@import "./core/Reset.scss";
+@import "./core/Variables.scss";
+@import "./components/Landing.scss";
+@import "./components/Nav.scss";
+
+#root {
+  font-family: $mainFont;
+}
